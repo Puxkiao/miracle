@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle Mates - Fashion Brand</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="fonts/namafont.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Miracle Mates Logo" style="height:60px;">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#collaboration">COLLAB</a></li>
+                <li><a href="#lookbook">LOOK BOOK</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h2>TUNJUKKAN JATI DIRIMU</h2>
+            <p>STAY REAL DENGAN<br>MIRACLE MATES</p>
+        </div>
+        <!-- <div class="hero-social">
+            <span>FOLLOW US</span>
+            <a href="#"><i class="fab fa-instagram"></i> @miraclemates</a>
+            <a href="#"><i class="fab fa-tiktok"></i> @miraclemates</a>
+        </div> -->
+    </section>
+
+    <!-- Collaboration Section (pindah ke atas footer) -->
+    <section id="collaboration" class="collaboration">
+        <div class="collab-bg">
+            <div class="collab-title">COLLABORATION</div>
+            <div class="collab-row">
+                <div class="collab-img-group">
+                    <img src="./img/Kinder.webp" alt="Kolaborasi 1" class="collab-img">
+                    <img src="./img/Vicious.jpg" alt="Kolaborasi 2" class="collab-img">
+                </div>
+                <div class="collab-text">
+                    <h3>Kolaborasi Dongker & Kinder Bloomen</h3>
+                    <h4>HADIRNYA MIRACLE MATES</h4>
+                    <h5>"Rima Ini Mekar di Bandung"</h5>
+                    <p>Tur oleh <span>@baladagehel</span> & <span>@kinderbloomen</span></p>
+                    <p>
+                        Kolaborasi ini menggabungkan elemen streetwear dari Miracle Mates dengan estetika dan pemberontak yang menjadi ciri khas Vicious Pain. Kolaborasi ini menghasilkan koleksi yang penuh karakter, Vicious Miracle Forever tidak hanya menghadirkan fashion statement yang kuat, tetapi juga simbol dari persatuan dua brand yang sama-sama memiliki semangat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Look Book Section -->
+    <section id="lookbook" class="lookbook">
+        <div class="container">
+            <h2>Look Book</h2>
+            <h3>Galeri Foto Video Campaign</h3>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/Fotoshoot 1.jpeg" alt="Lookbook Fotoshoot 1">
+                    <div class="gallery-caption">Lookbook Fotoshoot 1</div>
+                </div>
+                <div class="gallery-item">
+                    <video controls width="300">
+                        <source src="videos/Video 2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="gallery-caption">Lookbook Fotoshoot 2</div>
+                </div>
+                <!-- Tambahkan foto/video lain jika ada -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Profile</h3>
+                    <p>
+                        Miracle Mates merupakan sebuah brand lokal fashion asal kota Bandung. 
+                        Brand ini didirikan oleh Fadli Maulana Ibrahim pada tahun 2014 saat masih berusia 16 tahun, 
+                        bermodal Rp 600 ribu untuk memproduksi satu lusin kaos. 
+                        Awalnya, ia hanya menjual produknya ke teman-teman terdekat, 
+                        tanpa orientasi keuntungan, tetapi seiring waktu Miracle Mates berkembang 
+                        menjadi salah satu brand lokal yang populer di Indonesia.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="./img/7.jpeg" alt="Tentang Miracle Mates">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="proses.php" method="POST">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i> @miraclemates</a>
+                    <a href="#"><i class="fab fa-facebook"></i> @miraclemates</a>
+                    <a href="#"><i class="fab fa-twitter"></i> @miraclemates</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@miraclemates.com</p>
+                <p>Phone: +62 812-3456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Miracle Mates. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
